@@ -62,6 +62,11 @@
    
    两者的区别在于 ：
    第一种已经定死了具体的实现，第二种 比较灵活 根据入参可以switch 你的实现方式
+   
+# @Profile 配置方式
+   * 编程方式实现
+      观看package包 service 的 calculateService实现
+      动态配置决定了调用那个服务
     
     
 
