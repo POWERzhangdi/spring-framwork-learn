@@ -81,7 +81,17 @@
         - 配置文件 : META-INF/spring.factories
 
 # @EnableAutoConfiguration 自动装配  springboot的自动装配
-   example:
+   执行顺寻 先去执行: OnSystemPropertyCondition 里面包含了条件装配的信息 查看是否可以装配
+   再去执行 SelectorHelloWorldConfiguration 选择 注册的bean实例
+   配置信息来自于:META-INF/spring.factories
+   
+# @Conditional 注解 条件装配 派生了@Profile 底层实现 interface Condition 编程方式
+
+    
+
+
+
+  
        
         
   
