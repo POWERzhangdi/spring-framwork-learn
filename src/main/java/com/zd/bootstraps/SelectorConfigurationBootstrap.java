@@ -1,4 +1,4 @@
-package com.zd.learn;
+package com.zd.bootstraps;
 
 import com.zd.annotations.SelectorAutoHelloWoldAnnotation;
 import org.springframework.boot.WebApplicationType;

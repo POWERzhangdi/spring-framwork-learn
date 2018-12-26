@@ -64,9 +64,27 @@
    第一种已经定死了具体的实现，第二种 比较灵活 根据入参可以switch 你的实现方式
    
 # @Profile 配置方式
-   * 编程方式实现
+   * 配置方式实现
       观看package包 service 的 calculateService实现
       动态配置决定了调用那个服务
+      
+   * 基于编程方式的实现- @ConditionalOnSystemProperty
+   
+   springboot 的规约：约定大于配置 简化配置 实现自动装配
+   
+   底层的装配技术：
+   - spring模式注解
+   - spring @Enable模块
+   - spring条件装配模块
+   - spring工厂加载机制
+        - 实现类 : SpringFactoriesLoader
+        - 配置文件 : META-INF/spring.factories
+
+# @EnableAutoConfiguration 自动装配  springboot的自动装配
+   example:
+       
+        
+  
     
     
 
