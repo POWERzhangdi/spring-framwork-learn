@@ -5,9 +5,11 @@ package com.zd.lock;
  * 线程的类的创建形式
  * 1.implements Runnable
  * 2.extends Thread
+ *
+ * 对象锁
  */
-public class SynchronizedDemo implements Runnable{
-    static SynchronizedDemo instance = new SynchronizedDemo();
+public class SynchronizedObjectDemo implements Runnable{
+    static SynchronizedObjectDemo instance = new SynchronizedObjectDemo();
 
     /**
      * 锁对象1
@@ -22,6 +24,7 @@ public class SynchronizedDemo implements Runnable{
     @Override
     public void run() {
 
+        //代码块
         synchronized (lock1){
         System.out.println("我是lock1"+"正在执行"+Thread.currentThread().getName());
         try {
@@ -32,6 +35,7 @@ public class SynchronizedDemo implements Runnable{
         System.out.println("我是lock1"+"结束执行"+Thread.currentThread().getName());
         }
 
+        //代码块
         synchronized (lock2){
             System.out.println("我是lock2"+"正在执行"+Thread.currentThread().getName());
             try {
