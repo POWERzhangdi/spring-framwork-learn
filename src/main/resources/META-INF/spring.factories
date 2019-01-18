@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.zd.configurations.HelloWorldAutoConfiguration
+com.basis.configurations.HelloWorldAutoConfiguration

@@ -87,6 +87,13 @@
    
 # @Conditional 注解 条件装配 派生了@Profile 底层实现 interface Condition 编程方式
 
+
+
+
+# springApplication 基础衍生
+
+
+
     
 
 
