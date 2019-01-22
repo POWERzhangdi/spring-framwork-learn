@@ -11,7 +11,8 @@ com.application.order.BeforeApplication
 #事件监听的加载顺序
 org.springframework.context.ApplicationListener=\
 com.application.listener.AfterListenerApplication,\
-com.application.listener.BeforeListenerApplication
+com.application.listener.BeforeListenerApplication,\
+com.application.listener.BeforeConfigFileApplicationListener
 
 #springboot事件启动
 org.springframework.boot.SpringApplicationRunListener=\
