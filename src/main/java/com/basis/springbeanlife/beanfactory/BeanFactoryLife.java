@@ -6,6 +6,8 @@ import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.core.io.ClassPathResource;
 
+import java.util.HashMap;
+
 
 /*
     这个跟上面applicationcontex的处理形式差不多不多有些操作还是不一样的
